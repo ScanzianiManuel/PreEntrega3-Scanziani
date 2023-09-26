@@ -1,0 +1,19 @@
+/*Responsive*/
+
+@media (max-width: 1023px) {
+    /* como comprar */
+
+    .contenedorPadre {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* formulario */
+
+    .contenedorFormulario {
+        grid-template-columns: 1fr;
+    }
+
+    .logFant {
+        display: none;
+    }
+}

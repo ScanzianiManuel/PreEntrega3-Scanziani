@@ -1,0 +1,54 @@
+/* Header */
+
+@mixin flechas {
+    color: black;
+    background-color: black;
+}
+
+.miLogo {
+    width: 75px;
+}
+
+.miFondo {
+    background-color: white;
+}
+
+.miLink:hover {
+    color: $color-pink;
+}
+
+/* la piñata de tus sueños */
+
+.laPiñataDeTusSueños {
+    background-color: $color-pink;
+    color: wheat;
+    text-align: center;
+    font-weight: bold;
+    padding: 16px;
+
+    h2 {
+        font-family: 'Mooli', sans-serif;
+    }
+
+    h3 {
+        font-family: 'Courgette', cursive;
+        font-size: 55px;
+        font-weight: bold;
+    }
+
+    h4 {
+        font-family: 'Mooli', sans-serif;
+    }
+}
+
+/*carrousel************/
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    @include flechas;
+}
+
+.carousel-inner {
+    text-align: center;
+    background-color: white;
+}

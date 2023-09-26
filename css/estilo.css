@@ -1,0 +1,208 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Mooli&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+.miLogo {
+  width: 75px;
+}
+
+.miFondo {
+  background-color: white;
+}
+
+.miLink:hover {
+  color: palevioletred;
+}
+
+/* la piñata de tus sueños */
+.laPiñataDeTusSueños {
+  background-color: palevioletred;
+  color: wheat;
+  text-align: center;
+  font-weight: bold;
+  padding: 16px;
+}
+.laPiñataDeTusSueños h2 {
+  font-family: "Mooli", sans-serif;
+}
+.laPiñataDeTusSueños h3 {
+  font-family: "Courgette", cursive;
+  font-size: 55px;
+  font-weight: bold;
+}
+.laPiñataDeTusSueños h4 {
+  font-family: "Mooli", sans-serif;
+}
+
+/*carrousel************/
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  color: black;
+  background-color: black;
+}
+
+.carousel-inner {
+  text-align: center;
+  background-color: white;
+}
+
+body {
+  background-color: papayawhip;
+  font-size: 18px;
+}
+
+/**** footer *****/
+footer {
+  background-color: palevioletred;
+}
+
+/* soy nadia */
+.nadiafot {
+  opacity: 95%;
+  border-radius: 70px;
+  box-shadow: palevioletred 10px 5px;
+}
+
+.row {
+  background-color: white;
+  text-align: center;
+}
+
+.pNadia {
+  text-align: center;
+  justify-items: center;
+}
+.pNadia p {
+  text-align: center;
+  margin-top: 20%;
+  padding: 20px;
+  font-size: 25px;
+  color: white;
+}
+
+.syNadia {
+  margin-top: 10%;
+  background-color: palevioletred;
+  color: white;
+  border-radius: 60px;
+  opacity: 75%;
+  padding: 20px;
+}
+.syNadia h2 {
+  font-family: "Mooli", sans-serif;
+  text-transform: uppercase;
+}
+.syNadia h3 {
+  font-family: "Courgette", cursive;
+  font-size: 50px;
+}
+
+.boxNadia {
+  background-color: palevioletred;
+  opacity: 70%;
+  border-radius: 60px;
+}
+.boxNadia p {
+  font-family: "Mooli", sans-serif;
+}
+
+.colorBtn {
+  background-color: palevioletred;
+  color: white;
+}
+
+/***********como comprar****************/
+/*contenedor Padre*/
+.contenedorPadre {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.comoComprar {
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(252, 0, 155);
+}
+.comoComprar h2 {
+  font-size: 50px;
+  font-weight: normal;
+  margin-top: 20px;
+  color: rgb(252, 0, 155);
+  font-family: "Courgette", cursive;
+}
+
+.item {
+  padding: 50px;
+  margin-top: 50px;
+}
+.item h3 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: palevioletred;
+  font-family: "Mooli", sans-serif;
+}
+.item p {
+  font-size: 20px;
+  font-weight: normal;
+  text-align: right;
+  margin-top: 40px;
+  font-family: "Mooli", sans-serif;
+}
+
+/*Formulario contacto*********/
+.contenedorFormulario {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  text-align: center;
+}
+
+.puedesContactarnos p {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Mooli", sans-serif;
+}
+.puedesContactarnos h2 {
+  text-transform: uppercase;
+  text-align: center;
+  color: rgb(252, 0, 155);
+  font-size: 40px;
+  font-family: "Courgette", cursive;
+}
+
+.formContacto {
+  text-align: left;
+  font-weight: bold;
+  color: rgb(252, 0, 155);
+  margin-top: 30px;
+  font-family: "Mooli", sans-serif;
+}
+.formContacto input,
+.formContacto textarea {
+  border: 1px solid rgb(252, 0, 155);
+}
+
+/*Responsive*/
+@media (max-width: 1023px) {
+  /* como comprar */
+  .contenedorPadre {
+    grid-template-columns: 1fr 1fr;
+  }
+  /* formulario */
+  .contenedorFormulario {
+    grid-template-columns: 1fr;
+  }
+  .logFant {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */
